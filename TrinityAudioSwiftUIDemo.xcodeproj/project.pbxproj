@@ -15,9 +15,10 @@
 		948102BC2B158EAD00E11EA2 /* TrinityAudioSwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948102BB2B158EAD00E11EA2 /* TrinityAudioSwiftUIDemoUITests.swift */; };
 		948102BE2B158EAD00E11EA2 /* TrinityAudioSwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948102BD2B158EAD00E11EA2 /* TrinityAudioSwiftUIDemoUITestsLaunchTests.swift */; };
 		948102D12B15963E00E11EA2 /* AppContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948102D02B15963E00E11EA2 /* AppContent.swift */; };
-		948102D82B15BF6700E11EA2 /* TrinityPlayer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948102D72B15BF5E00E11EA2 /* TrinityPlayer.xcframework */; };
-		948102D92B15BF6700E11EA2 /* TrinityPlayer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 948102D72B15BF5E00E11EA2 /* TrinityPlayer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		948102DE2B15CD7200E11EA2 /* TrinityPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948102DD2B15CD7200E11EA2 /* TrinityPlayerDelegate.swift */; };
+		948102E02B15E6E500E11EA2 /* DemoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948102DF2B15E6E500E11EA2 /* DemoContentView.swift */; };
+		948102E32B15E8E900E11EA2 /* AppTrackingPermissionRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948102E22B15E8E900E11EA2 /* AppTrackingPermissionRequester.swift */; };
+		948102E62B15EA7400E11EA2 /* TrinityPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 948102E52B15EA7400E11EA2 /* TrinityPlayer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				948102D92B15BF6700E11EA2 /* TrinityPlayer.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,8 +64,10 @@
 		948102BD2B158EAD00E11EA2 /* TrinityAudioSwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinityAudioSwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		948102D02B15963E00E11EA2 /* AppContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContent.swift; sourceTree = "<group>"; };
 		948102D32B15BF4500E11EA2 /* TrinityPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TrinityPlayer.xcframework; path = ../../../../../Desktop/TrinityPlayer.xcframework; sourceTree = "<group>"; };
-		948102D72B15BF5E00E11EA2 /* TrinityPlayer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TrinityPlayer.xcframework; sourceTree = "<group>"; };
 		948102DD2B15CD7200E11EA2 /* TrinityPlayerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinityPlayerDelegate.swift; sourceTree = "<group>"; };
+		948102DF2B15E6E500E11EA2 /* DemoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoContentView.swift; sourceTree = "<group>"; };
+		948102E12B15E87C00E11EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		948102E22B15E8E900E11EA2 /* AppTrackingPermissionRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTrackingPermissionRequester.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948102D82B15BF6700E11EA2 /* TrinityPlayer.xcframework in Frameworks */,
+				948102E62B15EA7400E11EA2 /* TrinityPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +99,6 @@
 		948102942B158EAC00E11EA2 = {
 			isa = PBXGroup;
 			children = (
-				948102D72B15BF5E00E11EA2 /* TrinityPlayer.xcframework */,
 				9481029F2B158EAC00E11EA2 /* TrinityAudioSwiftUIDemo */,
 				948102B02B158EAD00E11EA2 /* TrinityAudioSwiftUIDemoTests */,
 				948102BA2B158EAD00E11EA2 /* TrinityAudioSwiftUIDemoUITests */,
@@ -119,12 +120,15 @@
 		9481029F2B158EAC00E11EA2 /* TrinityAudioSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				948102E12B15E87C00E11EA2 /* Info.plist */,
 				948102A02B158EAC00E11EA2 /* TrinityAudioSwiftUIDemoApp.swift */,
 				948102A22B158EAC00E11EA2 /* ContentView.swift */,
+				948102DF2B15E6E500E11EA2 /* DemoContentView.swift */,
 				948102A42B158EAD00E11EA2 /* Assets.xcassets */,
 				948102A62B158EAD00E11EA2 /* Preview Content */,
 				948102D02B15963E00E11EA2 /* AppContent.swift */,
 				948102DD2B15CD7200E11EA2 /* TrinityPlayerDelegate.swift */,
+				948102E22B15E8E900E11EA2 /* AppTrackingPermissionRequester.swift */,
 			);
 			path = TrinityAudioSwiftUIDemo;
 			sourceTree = "<group>";
@@ -180,6 +184,7 @@
 			);
 			name = TrinityAudioSwiftUIDemo;
 			packageProductDependencies = (
+				948102E52B15EA7400E11EA2 /* TrinityPlayer */,
 			);
 			productName = TrinityAudioSwiftUIDemo;
 			productReference = 9481029D2B158EAC00E11EA2 /* TrinityAudioSwiftUIDemo.app */;
@@ -254,6 +259,7 @@
 			);
 			mainGroup = 948102942B158EAC00E11EA2;
 			packageReferences = (
+				948102E42B15EA7400E11EA2 /* XCRemoteSwiftPackageReference "trinityaudio-ios-sdk" */,
 			);
 			productRefGroup = 9481029E2B158EAC00E11EA2 /* Products */;
 			projectDirPath = "";
@@ -301,6 +307,8 @@
 				948102DE2B15CD7200E11EA2 /* TrinityPlayerDelegate.swift in Sources */,
 				948102A32B158EAC00E11EA2 /* ContentView.swift in Sources */,
 				948102A12B158EAC00E11EA2 /* TrinityAudioSwiftUIDemoApp.swift in Sources */,
+				948102E32B15E8E900E11EA2 /* AppTrackingPermissionRequester.swift in Sources */,
+				948102E02B15E6E500E11EA2 /* DemoContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +475,8 @@
 				DEVELOPMENT_TEAM = 4SVK7N5V6K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrinityAudioSwiftUIDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -496,6 +506,8 @@
 				DEVELOPMENT_TEAM = 4SVK7N5V6K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrinityAudioSwiftUIDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -630,6 +642,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		948102E42B15EA7400E11EA2 /* XCRemoteSwiftPackageReference "trinityaudio-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TrinityAudioSDK/trinityaudio-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.85;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		948102E52B15EA7400E11EA2 /* TrinityPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 948102E42B15EA7400E11EA2 /* XCRemoteSwiftPackageReference "trinityaudio-ios-sdk" */;
+			productName = TrinityPlayer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 948102952B158EAC00E11EA2 /* Project object */;
 }
