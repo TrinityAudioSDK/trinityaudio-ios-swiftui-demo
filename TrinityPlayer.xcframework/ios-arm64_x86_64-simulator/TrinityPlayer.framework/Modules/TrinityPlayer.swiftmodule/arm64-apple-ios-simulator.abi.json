@@ -1,0 +1,3707 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityAudioPlayer",
+        "printedName": "TrinityAudioPlayer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(audioController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioPlayer",
+                "printedName": "TrinityPlayer.TrinityAudioPlayer",
+                "usr": "s:13TrinityPlayer0a5AudioB0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioController",
+                "printedName": "TrinityPlayer.TrinityAudioController",
+                "usr": "s:13TrinityPlayer0A15AudioControllerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13TrinityPlayer0a5AudioB0V15audioControllerAcA0acE0C_tcfc",
+            "mangledName": "$s13TrinityPlayer0a5AudioB0V15audioControllerAcA0acE0C_tcfc",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_ConditionalContent",
+                "printedName": "SwiftUI._ConditionalContent<SwiftUI.AnyView, SwiftUI.EmptyView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyView",
+                    "printedName": "SwiftUI.AnyView",
+                    "usr": "s:7SwiftUI7AnyViewV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EmptyView",
+                    "printedName": "SwiftUI.EmptyView",
+                    "usr": "s:7SwiftUI9EmptyViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI19_ConditionalContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TrinityPlayer0a5AudioB0V4bodyQrvp",
+            "mangledName": "$s13TrinityPlayer0a5AudioB0V4bodyQrvp",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<SwiftUI.AnyView, SwiftUI.EmptyView>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmptyView",
+                        "printedName": "SwiftUI.EmptyView",
+                        "usr": "s:7SwiftUI9EmptyViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0a5AudioB0V4bodyQrvg",
+                "mangledName": "$s13TrinityPlayer0a5AudioB0V4bodyQrvg",
+                "moduleName": "TrinityPlayer",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13TrinityPlayer0a5AudioB0V",
+        "mangledName": "$s13TrinityPlayer0a5AudioB0V",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ConditionalContent",
+                    "printedName": "SwiftUI._ConditionalContent<SwiftUI.AnyView, SwiftUI.EmptyView>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyView",
+                        "printedName": "SwiftUI.AnyView",
+                        "usr": "s:7SwiftUI7AnyViewV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmptyView",
+                        "printedName": "SwiftUI.EmptyView",
+                        "usr": "s:7SwiftUI9EmptyViewV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI19_ConditionalContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityAudio",
+        "printedName": "TrinityAudio",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "newInstance",
+            "printedName": "newInstance()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIKitTrinityAudioProtocol",
+                "printedName": "TrinityPlayer.UIKitTrinityAudioProtocol",
+                "usr": "s:13TrinityPlayer05UIKitA13AudioProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5AudioC11newInstanceAA05UIKitaC8Protocol_pyFZ",
+            "mangledName": "$s13TrinityPlayer0A5AudioC11newInstanceAA05UIKitaC8Protocol_pyFZ",
+            "moduleName": "TrinityPlayer",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "TrinityPlayer.TrinityAudioDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvp",
+            "mangledName": "$s13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvp",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityAudioDelegate",
+                        "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                        "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvg",
+                "mangledName": "$s13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvg",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityAudioDelegate",
+                        "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                        "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvs",
+                "mangledName": "$s13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvs",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvM",
+                "mangledName": "$s13TrinityPlayer0A5AudioC8delegateAA0aC8Delegate_pSgvM",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "invalidate",
+            "printedName": "invalidate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5AudioC10invalidateyyF",
+            "mangledName": "$s13TrinityPlayer0A5AudioC10invalidateyyF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(parentViewController:unitId:sourceView:fabViewTopLeftCoordinates:contentURL:settings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5AudioC6render20parentViewController6unitId06sourceF003fabF18TopLeftCoordinates10contentURL8settingsySo06UIViewG0C_SSSo0R0CSo7CGPointVSg10Foundation0P0VSDyS2SGSgtF",
+            "mangledName": "$s13TrinityPlayer0A5AudioC6render20parentViewController6unitId06sourceF003fabF18TopLeftCoordinates10contentURL8settingsySo06UIViewG0C_SSSo0R0CSo7CGPointVSg10Foundation0P0VSDyS2SGSgtF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(javaScript:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5AudioC8evaluate10javaScriptySS_tF",
+            "mangledName": "$s13TrinityPlayer0A5AudioC8evaluate10javaScriptySS_tF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause(playerID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5AudioC5pause8playerIDySSSg_tF",
+            "mangledName": "$s13TrinityPlayer0A5AudioC5pause8playerIDySSSg_tF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseAll",
+            "printedName": "pauseAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5AudioC8pauseAllyyF",
+            "mangledName": "$s13TrinityPlayer0A5AudioC8pauseAllyyF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13TrinityPlayer0A5AudioC",
+        "mangledName": "$s13TrinityPlayer0A5AudioC",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIKitTrinityAudioProtocol",
+            "printedName": "UIKitTrinityAudioProtocol",
+            "usr": "s:13TrinityPlayer05UIKitA13AudioProtocolP",
+            "mangledName": "$s13TrinityPlayer05UIKitA13AudioProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TrinityAudioProtocol",
+            "printedName": "TrinityAudioProtocol",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityAudioController",
+        "printedName": "TrinityAudioController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityAudioDelegate",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                    "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvp",
+            "mangledName": "$s13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvp",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityAudioDelegate",
+                        "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                        "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvg",
+                "mangledName": "$s13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvg",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityAudioDelegate",
+                        "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                        "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvs",
+                "mangledName": "$s13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvs",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvM",
+                "mangledName": "$s13TrinityPlayer0A15AudioControllerC8delegateAA0aC8Delegate_pSgvM",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(unitId:contentURL:settings:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioController",
+                "printedName": "TrinityPlayer.TrinityAudioController",
+                "usr": "s:13TrinityPlayer0A15AudioControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityAudioDelegate",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                    "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13TrinityPlayer0A15AudioControllerC6unitId10contentURL8settings8delegateACSS_SSSDyS2SGSgAA0aC8Delegate_pSgtcfc",
+            "mangledName": "$s13TrinityPlayer0A15AudioControllerC6unitId10contentURL8settings8delegateACSS_SSSDyS2SGSgAA0aC8Delegate_pSgtcfc",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(javaScript:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A15AudioControllerC8evaluate10javaScriptySS_tF",
+            "mangledName": "$s13TrinityPlayer0A15AudioControllerC8evaluate10javaScriptySS_tF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause(playerID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A15AudioControllerC5pause8playerIDySSSg_tF",
+            "mangledName": "$s13TrinityPlayer0A15AudioControllerC5pause8playerIDySSSg_tF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseAll",
+            "printedName": "pauseAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A15AudioControllerC8pauseAllyyF",
+            "mangledName": "$s13TrinityPlayer0A15AudioControllerC8pauseAllyyF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidate",
+            "printedName": "invalidate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A15AudioControllerC10invalidateyyF",
+            "mangledName": "$s13TrinityPlayer0A15AudioControllerC10invalidateyyF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13TrinityPlayer0A15AudioControllerC",
+        "mangledName": "$s13TrinityPlayer0A15AudioControllerC",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TrinityAudioProtocol",
+            "printedName": "TrinityAudioProtocol",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityState",
+        "printedName": "TrinityState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "main",
+            "printedName": "main",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityState.Type) -> TrinityPlayer.TrinityState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityState",
+                    "printedName": "TrinityPlayer.TrinityState",
+                    "usr": "s:13TrinityPlayer0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityState",
+                        "printedName": "TrinityPlayer.TrinityState",
+                        "usr": "s:13TrinityPlayer0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A5StateO4mainyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A5StateO4mainyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "fab",
+            "printedName": "fab",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityState.Type) -> TrinityPlayer.TrinityState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityState",
+                    "printedName": "TrinityPlayer.TrinityState",
+                    "usr": "s:13TrinityPlayer0A5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityState",
+                        "printedName": "TrinityPlayer.TrinityState",
+                        "usr": "s:13TrinityPlayer0A5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A5StateO3fabyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A5StateO3fabyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityState",
+                "printedName": "TrinityPlayer.TrinityState",
+                "usr": "s:13TrinityPlayer0A5StateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityState",
+                "printedName": "TrinityPlayer.TrinityState",
+                "usr": "s:13TrinityPlayer0A5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5StateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13TrinityPlayer0A5StateO2eeoiySbAC_ACtFZ",
+            "moduleName": "TrinityPlayer",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TrinityPlayer0A5StateO9hashValueSivp",
+            "mangledName": "$s13TrinityPlayer0A5StateO9hashValueSivp",
+            "moduleName": "TrinityPlayer",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A5StateO9hashValueSivg",
+                "mangledName": "$s13TrinityPlayer0A5StateO9hashValueSivg",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A5StateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13TrinityPlayer0A5StateO4hash4intoys6HasherVz_tF",
+            "moduleName": "TrinityPlayer",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13TrinityPlayer0A5StateO",
+        "mangledName": "$s13TrinityPlayer0A5StateO",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityParams",
+        "printedName": "TrinityParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "appName",
+            "printedName": "appName",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO7appNameyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO7appNameyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "appVersion",
+            "printedName": "appVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO10appVersionyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO10appVersionyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "appBundleId",
+            "printedName": "appBundleId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO11appBundleIdyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO11appBundleIdyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "appIDFA",
+            "printedName": "appIDFA",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO7appIDFAyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO7appIDFAyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "darkModeisOn",
+            "printedName": "darkModeisOn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO12darkModeisOnyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO12darkModeisOnyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "SDKVersion",
+            "printedName": "SDKVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO10SDKVersionyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO10SDKVersionyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "trinityVersion",
+            "printedName": "trinityVersion",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO14trinityVersionyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO14trinityVersionyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "isDebug",
+            "printedName": "isDebug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO7isDebugyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO7isDebugyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "appStoreURL",
+            "printedName": "appStoreURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO11appStoreURLyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO11appStoreURLyA2CmF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GDPR",
+            "printedName": "GDPR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO4GDPRyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO4GDPRyA2CmF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "GDPRConsent",
+            "printedName": "GDPRConsent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO11GDPRConsentyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO11GDPRConsentyA2CmF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "USPrivacy",
+            "printedName": "USPrivacy",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityParams.Type) -> TrinityPlayer.TrinityParams",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityParams.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityParams",
+                        "printedName": "TrinityPlayer.TrinityParams",
+                        "usr": "s:13TrinityPlayer0A6ParamsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A6ParamsO9USPrivacyyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO9USPrivacyyA2CmF",
+            "moduleName": "TrinityPlayer",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TrinityPlayer0A6ParamsO8rawValueSSvp",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO8rawValueSSvp",
+            "moduleName": "TrinityPlayer",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A6ParamsO8rawValueSSvg",
+                "mangledName": "$s13TrinityPlayer0A6ParamsO8rawValueSSvg",
+                "moduleName": "TrinityPlayer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrinityPlayer.TrinityParams?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityParams",
+                    "printedName": "TrinityPlayer.TrinityParams",
+                    "usr": "s:13TrinityPlayer0A6ParamsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13TrinityPlayer0A6ParamsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13TrinityPlayer0A6ParamsO8rawValueACSgSS_tcfc",
+            "moduleName": "TrinityPlayer",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13TrinityPlayer0A6ParamsO",
+        "mangledName": "$s13TrinityPlayer0A6ParamsO",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityError",
+        "printedName": "TrinityError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrongURL",
+            "printedName": "wrongURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityError.Type) -> TrinityPlayer.TrinityError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityError",
+                    "printedName": "TrinityPlayer.TrinityError",
+                    "usr": "s:13TrinityPlayer0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityError",
+                        "printedName": "TrinityPlayer.TrinityError",
+                        "usr": "s:13TrinityPlayer0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A5ErrorO8wrongURLyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A5ErrorO8wrongURLyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "paramsIsEmpty",
+            "printedName": "paramsIsEmpty",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityError.Type) -> TrinityPlayer.TrinityError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityError",
+                    "printedName": "TrinityPlayer.TrinityError",
+                    "usr": "s:13TrinityPlayer0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityError",
+                        "printedName": "TrinityPlayer.TrinityError",
+                        "usr": "s:13TrinityPlayer0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A5ErrorO13paramsIsEmptyyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A5ErrorO13paramsIsEmptyyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "wrongParams",
+            "printedName": "wrongParams",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityError.Type) -> TrinityPlayer.TrinityError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityError",
+                    "printedName": "TrinityPlayer.TrinityError",
+                    "usr": "s:13TrinityPlayer0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityError",
+                        "printedName": "TrinityPlayer.TrinityError",
+                        "usr": "s:13TrinityPlayer0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A5ErrorO11wrongParamsyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A5ErrorO11wrongParamsyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "containerViewNotLoaded",
+            "printedName": "containerViewNotLoaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityError.Type) -> TrinityPlayer.TrinityError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityError",
+                    "printedName": "TrinityPlayer.TrinityError",
+                    "usr": "s:13TrinityPlayer0A5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityError",
+                        "printedName": "TrinityPlayer.TrinityError",
+                        "usr": "s:13TrinityPlayer0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A5ErrorO22containerViewNotLoadedyA2CmF",
+            "mangledName": "$s13TrinityPlayer0A5ErrorO22containerViewNotLoadedyA2CmF",
+            "moduleName": "TrinityPlayer"
+          },
+          {
+            "kind": "Var",
+            "name": "somethingWrong",
+            "printedName": "somethingWrong",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TrinityPlayer.TrinityError.Type) -> (Swift.Error?) -> TrinityPlayer.TrinityError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> TrinityPlayer.TrinityError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityError",
+                        "printedName": "TrinityPlayer.TrinityError",
+                        "usr": "s:13TrinityPlayer0A5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TrinityPlayer.TrinityError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityError",
+                        "printedName": "TrinityPlayer.TrinityError",
+                        "usr": "s:13TrinityPlayer0A5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13TrinityPlayer0A5ErrorO14somethingWrongyACs0C0_pSg_tcACmF",
+            "mangledName": "$s13TrinityPlayer0A5ErrorO14somethingWrongyACs0C0_pSg_tcACmF",
+            "moduleName": "TrinityPlayer"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13TrinityPlayer0A5ErrorO",
+        "mangledName": "$s13TrinityPlayer0A5ErrorO",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityAudioDelegate",
+        "printedName": "TrinityAudioDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "trinity",
+            "printedName": "trinity(service:receiveError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioProtocol",
+                "printedName": "TrinityPlayer.TrinityAudioProtocol",
+                "usr": "s:13TrinityPlayer0A13AudioProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityError",
+                "printedName": "TrinityPlayer.TrinityError",
+                "usr": "s:13TrinityPlayer0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioDelegateP7trinity7service12receiveErroryAA0aC8Protocol_p_AA0aH0OtF",
+            "mangledName": "$s13TrinityPlayer0A13AudioDelegateP7trinity7service12receiveErroryAA0aC8Protocol_p_AA0aH0OtF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioDelegate>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trinity",
+            "printedName": "trinity(service:detectUpdateForContentHeight:inState:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioProtocol",
+                "printedName": "TrinityPlayer.TrinityAudioProtocol",
+                "usr": "s:13TrinityPlayer0A13AudioProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityState",
+                "printedName": "TrinityPlayer.TrinityState",
+                "usr": "s:13TrinityPlayer0A5StateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioDelegateP7trinity7service28detectUpdateForContentHeight7inStateyAA0aC8Protocol_p_SfAA0aM0OtF",
+            "mangledName": "$s13TrinityPlayer0A13AudioDelegateP7trinity7service28detectUpdateForContentHeight7inStateyAA0aC8Protocol_p_SfAA0aM0OtF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioDelegate>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trinity",
+            "printedName": "trinity(service:didCheckCookie:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioProtocol",
+                "printedName": "TrinityPlayer.TrinityAudioProtocol",
+                "usr": "s:13TrinityPlayer0A13AudioProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioDelegateP7trinity7service14didCheckCookieyAA0aC8Protocol_p_SDySSypGtF",
+            "mangledName": "$s13TrinityPlayer0A13AudioDelegateP7trinity7service14didCheckCookieyAA0aC8Protocol_p_SDySSypGtF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioDelegate>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trinity",
+            "printedName": "trinity(service:didReceivePostMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioProtocol",
+                "printedName": "TrinityPlayer.TrinityAudioProtocol",
+                "usr": "s:13TrinityPlayer0A13AudioProtocolP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioDelegateP7trinity7service21didReceivePostMessageyAA0aC8Protocol_p_SDySSypGtF",
+            "mangledName": "$s13TrinityPlayer0A13AudioDelegateP7trinity7service21didReceivePostMessageyAA0aC8Protocol_p_SDySSypGtF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioDelegate>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13TrinityPlayer0A13AudioDelegateP",
+        "mangledName": "$s13TrinityPlayer0A13AudioDelegateP",
+        "moduleName": "TrinityPlayer",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrinityAudioProtocol",
+        "printedName": "TrinityAudioProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityAudioDelegate",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                    "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvp",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvp",
+            "moduleName": "TrinityPlayer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityAudioDelegate",
+                        "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                        "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvg",
+                "mangledName": "$s13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvg",
+                "moduleName": "TrinityPlayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+                "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TrinityPlayer.TrinityAudioDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrinityAudioDelegate",
+                        "printedName": "TrinityPlayer.TrinityAudioDelegate",
+                        "usr": "s:13TrinityPlayer0A13AudioDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvs",
+                "mangledName": "$s13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvs",
+                "moduleName": "TrinityPlayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+                "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvM",
+                "mangledName": "$s13TrinityPlayer0A13AudioProtocolP8delegateAA0aC8Delegate_pSgvM",
+                "moduleName": "TrinityPlayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+                "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "evaluate",
+            "printedName": "evaluate(javaScript:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP8evaluate10javaScriptySS_tF",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP8evaluate10javaScriptySS_tF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause(playerID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP5pause8playerIDySSSg_tF",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP5pause8playerIDySSSg_tF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseAll",
+            "printedName": "pauseAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP8pauseAllyyF",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP8pauseAllyyF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "invalidate",
+            "printedName": "invalidate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP10invalidateyyF",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP10invalidateyyF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.TrinityAudioProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13TrinityPlayer0A13AudioProtocolP",
+        "mangledName": "$s13TrinityPlayer0A13AudioProtocolP",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIKitTrinityAudioProtocol",
+        "printedName": "UIKitTrinityAudioProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "render",
+            "printedName": "render(parentViewController:unitId:sourceView:fabViewTopLeftCoordinates:contentURL:settings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TrinityPlayer05UIKitA13AudioProtocolP6render20parentViewController6unitId06sourceH003fabH18TopLeftCoordinates10contentURL8settingsySo06UIViewI0C_SSSo0T0CSo7CGPointVSg10Foundation0R0VSDyS2SGSgtF",
+            "mangledName": "$s13TrinityPlayer05UIKitA13AudioProtocolP6render20parentViewController6unitId06sourceH003fabH18TopLeftCoordinates10contentURL8settingsySo06UIViewI0C_SSSo0T0CSo7CGPointVSg10Foundation0R0VSDyS2SGSgtF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : TrinityPlayer.UIKitTrinityAudioProtocol>",
+            "sugared_genericSig": "<Self where Self : TrinityPlayer.UIKitTrinityAudioProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13TrinityPlayer05UIKitA13AudioProtocolP",
+        "mangledName": "$s13TrinityPlayer05UIKitA13AudioProtocolP",
+        "moduleName": "TrinityPlayer",
+        "genericSig": "<τ_0_0 : TrinityPlayer.TrinityAudioProtocol>",
+        "sugared_genericSig": "<Self : TrinityPlayer.TrinityAudioProtocol>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TrinityAudioProtocol",
+            "printedName": "TrinityAudioProtocol",
+            "usr": "s:13TrinityPlayer0A13AudioProtocolP",
+            "mangledName": "$s13TrinityPlayer0A13AudioProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TrinityPlayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "trinityFAB",
+            "printedName": "trinityFAB(controller:fabViewTopLeftCoordinates:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, TrinityPlayer.TrinityFABModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrinityFABModifier",
+                    "printedName": "TrinityPlayer.TrinityFABModifier",
+                    "usr": "s:13TrinityPlayer0A11FABModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioController",
+                "printedName": "TrinityPlayer.TrinityAudioController",
+                "usr": "s:13TrinityPlayer0A15AudioControllerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGPoint?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGPoint",
+                    "printedName": "CoreFoundation.CGPoint",
+                    "usr": "c:@S@CGPoint"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP13TrinityPlayerE10trinityFAB10controller03fabC18TopLeftCoordinatesQrAD0D15AudioControllerC_So7CGPointVSgtF",
+            "mangledName": "$s7SwiftUI4ViewP13TrinityPlayerE10trinityFAB10controller03fabC18TopLeftCoordinatesQrAD0D15AudioControllerC_So7CGPointVSgtF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trinityObserveScrollViewContentSize",
+            "printedName": "trinityObserveScrollViewContentSize(controller:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrinityAudioController",
+                "printedName": "TrinityPlayer.TrinityAudioController",
+                "usr": "s:13TrinityPlayer0A15AudioControllerC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP13TrinityPlayerE020trinityObserveScrollC11ContentSize10controllerQrAD0D15AudioControllerC_tF",
+            "mangledName": "$s7SwiftUI4ViewP13TrinityPlayerE020trinityObserveScrollC11ContentSize10controllerQrAD0D15AudioControllerC_tF",
+            "moduleName": "TrinityPlayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityFABView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1343,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityFABView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1349,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityFABView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1460,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "BooleanLiteral",
+      "offset": 492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "FloatLiteral",
+      "offset": 829,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "FloatLiteral",
+      "offset": 833,
+      "length": 4,
+      "value": "24.0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1039,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "StringLiteral",
+      "offset": 2473,
+      "length": 9,
+      "value": "\"isDebug\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "StringLiteral",
+      "offset": 2487,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "StringLiteral",
+      "offset": 4749,
+      "length": 42,
+      "value": "\"TRINITY_PLAYER.api.pause(\"\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "StringLiteral",
+      "offset": 4786,
+      "length": 1,
+      "value": "\"\");\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "StringLiteral",
+      "offset": 4853,
+      "length": 29,
+      "value": "\"TRINITY_PLAYER.api.pause();\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "StringLiteral",
+      "offset": 4973,
+      "length": 32,
+      "value": "\"TRINITY_PLAYER.api.pauseAll();\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudio.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6518,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/AppDataCollector.swift",
+      "kind": "Dictionary",
+      "offset": 340,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/AppDataCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 13,
+      "value": "\"SDKPlatform\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/AppDataCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/AppDataCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 545,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/AppDataCollector.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 574,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 69,
+      "value": "\"TrinityAudioController: contentURL isn't valid URL : \""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 1,
+      "value": "\"}\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 9,
+      "value": "\"isDebug\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 42,
+      "value": "\"TRINITY_PLAYER.api.pause(\"\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 2009,
+      "length": 1,
+      "value": "\"\");\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 2057,
+      "length": 29,
+      "value": "\"TRINITY_PLAYER.api.pause();\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "StringLiteral",
+      "offset": 2207,
+      "length": 32,
+      "value": "\"TRINITY_PLAYER.api.pauseAll();\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2671,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2701,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3500,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3588,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3865,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityAudioController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3953,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Extensions\/UIView+Visibility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 305,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Extensions\/UIView+Visibility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 563,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 12,
+      "value": "\"SDKAppName\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 15,
+      "value": "\"SDKAppVersion\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 13,
+      "value": "\"SDKBundleId\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 9,
+      "value": "\"SDKidfa\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 14,
+      "value": "\"darkModeIsOn\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 12,
+      "value": "\"SDKVersion\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 9,
+      "value": "\"isDebug\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 13,
+      "value": "\"appStoreURL\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 6,
+      "value": "\"GDPR\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 13,
+      "value": "\"GDPRConsent\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1088,
+      "length": 11,
+      "value": "\"USPrivacy\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 245,
+      "length": 12,
+      "value": "\"SDKAppName\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 280,
+      "length": 15,
+      "value": "\"SDKAppVersion\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 13,
+      "value": "\"SDKBundleId\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 9,
+      "value": "\"SDKidfa\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 14,
+      "value": "\"darkModeIsOn\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 12,
+      "value": "\"SDKVersion\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 9,
+      "value": "\"isDebug\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 13,
+      "value": "\"appStoreURL\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 6,
+      "value": "\"GDPR\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 13,
+      "value": "\"GDPRConsent\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/TrinityAudioProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1088,
+      "length": 11,
+      "value": "\"USPrivacy\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 196,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Constant.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Constant.swift",
+      "kind": "FloatLiteral",
+      "offset": 519,
+      "length": 3,
+      "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1023,
+      "length": 25,
+      "value": "\"https:\/\/trinitymedia.ai\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 47,
+      "value": "\"    document.body.innerHTML='';\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1181,
+      "length": 178,
+      "value": "\"    var iframe = document.querySelector('.trinity-iframe');\n    iframe.contentWindow.postMessage({type: '__TRINITY_TTS__', value: {action: 'FAB-show'}}, '*');\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 178,
+      "value": "\"    var iframe = document.querySelector('.trinity-iframe');\n    iframe.contentWindow.postMessage({type: '__TRINITY_TTS__', value: {action: 'FAB-hide'}}, '*');\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 652,
+      "value": "\"    window.addEventListener('message', (event) => {\n        const {type, value} = event.data;\n        if (type === '__TRINITY_TTS__' && value.action === 'resize') {\n            const height = value.message.height.int;\n            window.webkit.messageHandlers.trinityResizeListener.postMessage(height);\n        } else if (type === 'TRINITY_TTS') {\n            const payload = {\n                origin: event.origin,\n                data: event.data\n            };\n            \n            window.webkit.messageHandlers.trinityPostMessageListener.postMessage(payload);\n        }\n    })\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3616,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3672,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3686,
+      "length": 29,
+      "value": "\"allowFileAccessFromFileURLs\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3756,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3770,
+      "length": 34,
+      "value": "\"allowUniversalAccessFromFileURLs\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3857,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3871,
+      "length": 29,
+      "value": "\"allowFileAccessFromFileURLs\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3965,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4100,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4274,
+      "length": 23,
+      "value": "\"trinityResizeListener\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4382,
+      "length": 28,
+      "value": "\"trinityPostMessageListener\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4491,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7403,
+      "length": 378,
+      "value": "\"<html>\n  <head>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <style>\n      body {\n        margin: 0;\n      }\n    <\/style>\n  <\/head>\n  <body>\n    <script type='text\/javascript' src='\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 7724,
+      "length": 11,
+      "value": "\"'><\/script>\n  <\/body>\n<\/html>\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8058,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8343,
+      "length": 94,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8354,
+      "length": 1,
+      "value": "\"\/player\/trinity\/\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8379,
+      "length": 2,
+      "value": "\"\/?readContentType=URL&readContentConfig=\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8436,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8904,
+      "length": 44,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8925,
+      "length": 1,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8947,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9627,
+      "length": 21,
+      "value": "\"document.readyState\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9766,
+      "length": 28,
+      "value": "\"document.body.scrollHeight\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/TrinityPlayerViewController\/TrinityPlayerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 9864,
+      "length": 27,
+      "value": "\"document.body.offsetWidth\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/SyncService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1588,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityFABModifier.swift",
+      "kind": "IntegerLiteral",
+      "offset": 598,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/SwiftUI\/TrinityFABModifier.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Extensions\/Bool+FormattedValue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 188,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Extensions\/Bool+FormattedValue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Extensions\/Bool+FormattedValue.swift",
+      "kind": "StringLiteral",
+      "offset": 250,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Extensions\/Bool+FormattedValue.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "Dictionary",
+      "offset": 553,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 914,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 958,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "Dictionary",
+      "offset": 1213,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1539,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2411,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2525,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "StringLiteral",
+      "offset": 2691,
+      "length": 26,
+      "value": "\"IABConsent_ConsentString\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "StringLiteral",
+      "offset": 2752,
+      "length": 26,
+      "value": "\"IABConsent_SubjectToGDPR\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Service\/PrivacyConsentService.swift",
+      "kind": "StringLiteral",
+      "offset": 2815,
+      "length": 21,
+      "value": "\"IABUSPrivacy_String\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/View\/GenericScriptMessageHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 131,
+      "length": 27,
+      "value": "\"TrinityPlayer.GenericScriptMessageHandler\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Assembly\/TrinityAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 29,
+      "value": "\"TrinityPlayerViewController\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Assembly\/TrinityAssembly.swift",
+      "kind": "StringLiteral",
+      "offset": 531,
+      "length": 25,
+      "value": "\"TrinityPlayerStoryboard\""
+    },
+    {
+      "filePath": "\/Users\/ryan\/dev\/Projects\/trinity-sdk\/trinity-sdk\/iOS\/TrinityPlayer\/Trinity\/Version.swift",
+      "kind": "StringLiteral",
+      "offset": 108,
+      "length": 13,
+      "value": "\"__VERSION__\""
+    }
+  ]
+}
