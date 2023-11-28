@@ -2,7 +2,7 @@
 //  TrinityAudioSwiftUIDemoUITestsLaunchTests.swift
 //  TrinityAudioSwiftUIDemoUITests
 //
-//  Created by Ryan Hung Pham on 28/11/2023.
+//  Created by Kenji Hung Pham on 28/11/2023.
 //
 
 import XCTest
