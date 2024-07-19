@@ -9,7 +9,8 @@ import SwiftUI
 import TrinityPlayer
 
 struct DemoContentView: View {
-
+    
+    var autoPlay: Bool = false
     @StateObject var trinityAudioController = TrinityAudioController(unitId: "2900004156", contentURL:"https://demo.trinityaudio.ai/general-demo/demo.html")
     @StateObject var delegate = TrinityPlayerDelegate()
     
@@ -32,6 +33,17 @@ struct DemoContentView: View {
                 .foregroundColor(Color(UIColor.lightGray))
                 // 1. Insert the player view on the scroll view
                 TrinityAudioPlayer(audioController: trinityAudioController)
+                HStack{
+                    Button("Play", action: {
+                        trinityAudioController.play()
+                    })
+                    .padding(.trailing, 20)
+                    Button("Pause") {
+                        if let playerId = trinityAudioController.playerId {
+                            trinityAudioController.pause(playerID: playerId)
+                        }
+                    }
+                }
                 VStack(alignment: .leading) {
                     Text("Player Events")
                         .font(.system(size: 21, weight: .heavy))
@@ -54,6 +66,7 @@ struct DemoContentView: View {
             fabViewTopLeftCoordinates: CGPoint(x: 20, y: 80)
         ).onAppear(perform: {
             trinityAudioController.delegate = delegate
+            trinityAudioController.autoPlay = autoPlay
         })
     }
 }

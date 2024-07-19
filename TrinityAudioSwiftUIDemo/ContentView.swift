@@ -7,14 +7,20 @@ struct ContentView: View {
     @StateObject var permissionRequester = AppTrackingPermissionRequester()
 
     var body: some View {
-        VStack{
-            if permissionRequester.isRequestedTrackingPermission {
-                DemoContentView()
-            } else {
-                EmptyView()
+        NavigationView{
+            VStack{
+                if permissionRequester.isRequestedTrackingPermission {
+                    NavigationLink("Main Usage") {
+                        DemoContentView()
+                    }.padding(.bottom, 20)
+                    NavigationLink("Auto Play") {
+                        DemoContentView(autoPlay: true)
+                    }
+                } else {
+                    EmptyView()
+                }
             }
-        }
-        .onAppear(perform: {
+        }.onAppear(perform: {
             // Request permission for tracking user.
             // After have a permission we could access the IAD
             permissionRequester.request()
