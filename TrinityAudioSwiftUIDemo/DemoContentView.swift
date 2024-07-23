@@ -11,8 +11,14 @@ import TrinityPlayer
 struct DemoContentView: View {
     
     var autoPlay: Bool = false
-    @StateObject var trinityAudioController = TrinityAudioController(unitId: "2900004156", contentURL:"https://demo.trinityaudio.ai/general-demo/demo.html")
-    @StateObject var delegate = TrinityPlayerDelegate()
+    @ObservedObject var trinityAudioController: TrinityAudioController
+    @ObservedObject var delegate: TrinityPlayerDelegate = TrinityPlayerDelegate()
+    
+    internal init(autoPlay: Bool = false) {
+        self.autoPlay = autoPlay
+        self.trinityAudioController = TrinityAudioController(unitId: "2900004156", contentURL:"https://demo.trinityaudio.ai/general-demo/demo.html", autoPlay: autoPlay)
+        self.trinityAudioController.delegate = delegate
+    }
     
     var body: some View {
         ScrollView(.vertical) {
@@ -64,10 +70,9 @@ struct DemoContentView: View {
         .trinityFAB(
             controller: trinityAudioController,
             fabViewTopLeftCoordinates: CGPoint(x: 20, y: 80)
-        ).onAppear(perform: {
-            trinityAudioController.delegate = delegate
-            trinityAudioController.autoPlay = autoPlay
-        })
+        ).onDisappear{
+            trinityAudioController.invalidate()
+        }
     }
 }
 
