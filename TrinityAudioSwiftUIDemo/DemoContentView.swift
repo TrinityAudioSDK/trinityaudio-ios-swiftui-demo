@@ -13,8 +13,10 @@ struct DemoContentView: View {
     var autoPlay: Bool = false
     @ObservedObject var trinityAudioController: TrinityAudioController
     @ObservedObject var delegate: TrinityPlayerDelegate = TrinityPlayerDelegate()
+    @Binding var session: Int
     
-    internal init(autoPlay: Bool = false) {
+    internal init(autoPlay: Bool = false, session: Binding<Int>) {
+        self._session = session
         self.autoPlay = autoPlay
         self.trinityAudioController = TrinityAudioController(unitId: "2900004156", contentURL:"https://demo.trinityaudio.ai/general-demo/demo.html", autoPlay: autoPlay)
         self.trinityAudioController.delegate = delegate
@@ -72,13 +74,14 @@ struct DemoContentView: View {
             fabViewTopLeftCoordinates: CGPoint(x: 20, y: 80)
         ).onDisappear{
             trinityAudioController.invalidate()
+            session = session + 1
         }
     }
 }
 
 struct DemoContentView_Previews: PreviewProvider {
     static var previews: some View {
-        DemoContentView()
+        DemoContentView(session: .constant(0))
     }
 }
 

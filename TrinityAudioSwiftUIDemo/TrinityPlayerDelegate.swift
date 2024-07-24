@@ -32,6 +32,6 @@ class TrinityPlayerDelegate: ObservableObject, TrinityAudioDelegate {
     }
     
     func trinity(service: any TrinityPlayer.TrinityAudioProtocol, onPlayerReady playerId: String) {
-
+        print("onPlayerReady \(playerId)")
     }
 }

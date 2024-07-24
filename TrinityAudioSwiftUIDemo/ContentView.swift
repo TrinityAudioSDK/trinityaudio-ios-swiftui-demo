@@ -5,16 +5,18 @@ import TrinityPlayer
 struct ContentView: View {
 
     @StateObject var permissionRequester = AppTrackingPermissionRequester()
+    // Use session value to force the screen reload
+    @State var session = 0
 
     var body: some View {
         NavigationView{
             VStack{
                 if permissionRequester.isRequestedTrackingPermission {
                     NavigationLink("Main Usage") {
-                        DemoContentView()
+                        DemoContentView(session: $session).id(session)
                     }.padding(.bottom, 20)
                     NavigationLink("Auto Play") {
-                        DemoContentView(autoPlay: true)
+                        DemoContentView(autoPlay: true, session: $session).id(session)
                     }
                 } else {
                     EmptyView()
