@@ -41,6 +41,8 @@ struct DemoContentView: View {
                 .foregroundColor(Color(UIColor.lightGray))
                 // 1. Insert the player view on the scroll view
                 TrinityAudioPlayer(audioController: trinityAudioController)
+                Text("Player Id: \(trinityAudioController.playerId ?? "")")
+                    .font(.system(size: 14, weight: .semibold))
                 HStack{
                     Button("Play", action: {
                         trinityAudioController.play()
