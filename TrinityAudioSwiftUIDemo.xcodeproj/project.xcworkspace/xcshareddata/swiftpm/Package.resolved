@@ -1,14 +1,15 @@
 {
+  "originHash" : "a23b42ccf7382d7f0ed93dc0d5b1c30c7cff3d6211d146b443deec7fef1734ce",
   "pins" : [
     {
       "identity" : "trinityaudio-ios-sdk",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/TrinityAudioSDK/trinityaudio-ios-sdk",
       "state" : {
-        "revision" : "b3147950462af27a525accb76fde3e51754230c7",
-        "version" : "2.0.85"
+        "branch" : "main",
+        "revision" : "49bf7e5028995c3a620806f29d4e61c100a84f30"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

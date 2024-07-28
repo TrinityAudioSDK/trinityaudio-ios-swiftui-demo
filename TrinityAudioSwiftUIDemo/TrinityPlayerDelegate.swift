@@ -8,8 +8,9 @@
 import Foundation
 import TrinityPlayer
 
+
 class TrinityPlayerDelegate: ObservableObject, TrinityAudioDelegate {
-    
+
     private var cachedEvents = [[String: Any]]()
     @Published var eventLog : String = ""
     
@@ -27,12 +28,10 @@ class TrinityPlayerDelegate: ObservableObject, TrinityAudioDelegate {
     
     func trinity(service: TrinityPlayer.TrinityAudioProtocol, didReceivePostMessage message: [String : Any]) {
         print(message)
-        
-        cachedEvents.append(message)
-        
-        if let eventsData = try? JSONSerialization.data(withJSONObject: cachedEvents, options: [.prettyPrinted, .withoutEscapingSlashes]),
-           let eventsText = String(data: eventsData, encoding: .utf8) {
-            eventLog = eventsText
-        }
+        eventLog.append("\n\(message)")
+    }
+    
+    func trinity(service: any TrinityPlayer.TrinityAudioProtocol, onPlayerReady playerId: String) {
+        print("onPlayerReady \(playerId)")
     }
 }

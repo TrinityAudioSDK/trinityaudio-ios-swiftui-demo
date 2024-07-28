@@ -9,9 +9,18 @@ import SwiftUI
 import TrinityPlayer
 
 struct DemoContentView: View {
-
-    @StateObject var trinityAudioController = TrinityAudioController(unitId: "2900004156", contentURL:"https://demo.trinityaudio.ai/general-demo/demo.html")
-    @StateObject var delegate = TrinityPlayerDelegate()
+    
+    var autoPlay: Bool = false
+    @ObservedObject var trinityAudioController: TrinityAudioController
+    @ObservedObject var delegate: TrinityPlayerDelegate = TrinityPlayerDelegate()
+    @Binding var session: Int
+    
+    internal init(autoPlay: Bool = false, session: Binding<Int>) {
+        self._session = session
+        self.autoPlay = autoPlay
+        self.trinityAudioController = TrinityAudioController(unitId: "2900004156", contentURL:"https://demo.trinityaudio.ai/general-demo/demo.html", autoPlay: autoPlay)
+        self.trinityAudioController.delegate = delegate
+    }
     
     var body: some View {
         ScrollView(.vertical) {
@@ -32,6 +41,19 @@ struct DemoContentView: View {
                 .foregroundColor(Color(UIColor.lightGray))
                 // 1. Insert the player view on the scroll view
                 TrinityAudioPlayer(audioController: trinityAudioController)
+                Text("Player Id: \(trinityAudioController.playerId ?? "")")
+                    .font(.system(size: 14, weight: .semibold))
+                HStack{
+                    Button("Play", action: {
+                        trinityAudioController.play()
+                    })
+                    .padding(.trailing, 20)
+                    Button("Pause") {
+                        if let playerId = trinityAudioController.playerId {
+                            trinityAudioController.pause(playerID: playerId)
+                        }
+                    }
+                }
                 VStack(alignment: .leading) {
                     Text("Player Events")
                         .font(.system(size: 21, weight: .heavy))
@@ -52,15 +74,16 @@ struct DemoContentView: View {
         .trinityFAB(
             controller: trinityAudioController,
             fabViewTopLeftCoordinates: CGPoint(x: 20, y: 80)
-        ).onAppear(perform: {
-            trinityAudioController.delegate = delegate
-        })
+        ).onDisappear{
+            trinityAudioController.invalidate()
+            session = session + 1
+        }
     }
 }
 
 struct DemoContentView_Previews: PreviewProvider {
     static var previews: some View {
-        DemoContentView()
+        DemoContentView(session: .constant(0))
     }
 }
 
